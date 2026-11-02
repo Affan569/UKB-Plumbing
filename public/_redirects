@@ -1,0 +1,6 @@
+# Redirect www to non-www
+https://www.ukbplumbing.co.uk/* https://ukbplumbing.co.uk/:splat 301!
+
+# Redirect duplicate Eastleigh pages to main page (keep /areas-we-cover/southampton/eastleigh as main)
+/areas-we-cover/eastleigh /areas-we-cover/southampton/eastleigh 301
+/areas-we-cover/eastleigh/eastleigh /areas-we-cover/southampton/eastleigh 301
